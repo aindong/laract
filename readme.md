@@ -31,11 +31,11 @@ Laract is a Laravel + React Starter Project to lessen the time setting up a new 
 - [x] Add React Router
 - [x] Add Redux
 - [ ] Add Redux-Saga
-- [ ] Home Page
-- [ ] About Page
+- [x] Home Page
+- [x] About Page
 - [ ] Blog Page
 - [ ] Contact Us Page
-- [ ] Login Page
+- [x] Login Page
 - [ ] Registration
 - [ ] Authentication using passport
 - [ ] Code Splitting
