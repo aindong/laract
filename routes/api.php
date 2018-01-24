@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,10 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+use Illuminate\Support\Facades\Route;
+
+Route::group(['prefix' => 'v1'], function() {
+    // Auth routes
+    Route::prefix('auth')
+        ->group(base_path('routes/api/auth.php'));
 });
