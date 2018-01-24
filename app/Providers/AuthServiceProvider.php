@@ -26,7 +26,9 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        Passport::routes();
+        \Route::group(['prefix' => 'v1'], function() {
+            Passport::routes();
+        });
 
         // Expiration of token and refresh token
         Passport::tokensExpireIn(now()->addDays(5));
