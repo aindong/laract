@@ -66,8 +66,6 @@ class Main extends Component {
                     </div>
                 </nav>
 
-                <hr/>
-
                 <main style={{ minHeight: '100vh'}}>
                     { this.props.children }
                 </main>
