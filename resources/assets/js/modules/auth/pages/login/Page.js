@@ -10,7 +10,7 @@ class Page extends Component {
 
     static propTypes = {
         isAuthenticated: PropTypes.bool.isRequired,
-        dispatch: PropTypes.func.isRequired
+        login: PropTypes.func.isRequired
     }
 
     constructor(props) {
@@ -25,12 +25,16 @@ class Page extends Component {
         }
     }
 
-    handleChange = () => {
-
+    handleChange = (name, value) => {
+        this.setState({ credentials: {...this.state.credentials, [name]: value } })
     }
 
-    handleSubmit = () => {
+    handleSubmit = (e) => {
+        e.preventDefault()
 
+        const { credentials } = this.state
+
+        this.props.login(credentials)
     }
 
     render() {

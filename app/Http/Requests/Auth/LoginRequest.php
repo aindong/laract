@@ -51,8 +51,6 @@ class LoginRequest extends AbstractRequest
      */
     public function authorize()
     {
-        return $this->check([
-            'hasAccess|isOwner',
-        ]);
+        return true;
     }
 }
