@@ -13,4 +13,15 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import Main from './Main'
+import store from './store'
+
+render(
+    (<Provider store={store}>
+        <Main/>
+    </Provider>),
+    document.getElementById('app')
+)
