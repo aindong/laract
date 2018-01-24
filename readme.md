@@ -23,6 +23,8 @@ Laract is a Laravel + React Starter Project to lessen the time setting up a new 
 - generate key `php artisan key:generate`
 - then execute `npm install`
 - update `.env` to your desired settings
+- to instatiate laravel passport, execute `php artisan passport:install`
+- then run `php artisan migrate` for the migrations
 
 ##### TODO
 - [x] Add React
