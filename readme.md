@@ -17,8 +17,8 @@ Laract is a Laravel + React Starter Project to lessen the time setting up a new 
 
 ##### TODO
 - [x] Add React
-- [ ] Add React Router
-- [ ] Add Redux
+- [x] Add React Router
+- [x] Add Redux
 - [ ] Add Redux-Saga
 - [ ] Home Page
 - [ ] About Page
