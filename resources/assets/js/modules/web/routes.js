@@ -22,7 +22,7 @@ export default [
         path: '/blog',
         exact: true,
         component: Loadable({
-            loader: () => import('./pages/about'),
+            loader: () => import('./pages/blog'),
             loading: LoadingComponent,
         }),
     },
