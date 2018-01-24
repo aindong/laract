@@ -15,6 +15,15 @@ Laract is a Laravel + React Starter Project to lessen the time setting up a new 
 - Laravel
 - React
 
+## Starting a NEW PROJECT
+- `git clone https://github.com/aindong/laract.git projectName` (any project name that you want)
+- go to `projectName` folder
+- copy .env.example as .env `cp .env.example .env`
+- execute `composer install`
+- generate key `php artisan key:generate`
+- then execute `npm install`
+- update `.env` to your desired settings
+
 ##### TODO
 - [x] Add React
 - [x] Add React Router
