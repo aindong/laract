@@ -1,9 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+//@import "~font-awesome/scss/font-awesome";
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
+/*
+ * Dashboard
+ */
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+header {
+  padding: 30px 0;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.has-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.show > .dropdown-menu {
+  display: block;
+}
+
