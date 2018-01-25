@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Pluggables\Abstracts\Models;
+namespace App\Laract\Abstracts;
 
 use App\Laract\Traits\HashIdTrait;
 use Illuminate\Foundation\Auth\User as Authenticatable;
