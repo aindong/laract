@@ -11,9 +11,12 @@
 
 Laract is a Laravel + React Starter Project to lessen the time setting up a new project
 
-## Stack
+## Technologies
 - Laravel
 - React
+- React Router
+- Redux
+- Redux Saga
 
 ## Starting a NEW PROJECT
 - `git clone https://github.com/aindong/laract.git projectName` (any project name that you want)
