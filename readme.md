@@ -29,6 +29,11 @@ Laract is a Laravel + React Starter Project to lessen the time setting up a new 
 - to instatiate laravel passport, execute `php artisan passport:install`
 - then run `php artisan migrate` for the migrations
 
+## Development
+- run `php artisan serve`
+- then run on another terminal window or tab `npm run watch`
+- a browser will open that will redirect you to `localhost:3000`
+
 ##### TODO
 - [x] Add React
 - [x] Add React Router
